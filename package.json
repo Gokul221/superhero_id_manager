@@ -2,6 +2,7 @@
   "name": "superheroes",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,11 +10,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^1.7.7",
+    "mdb-react-ui-kit": "^8.0.0",
+    "mongoose": "^8.6.1",
+    "next": "14.2.9",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.9"
+    "react-dom": "^18"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
     "eslint": "^8",
     "eslint-config-next": "14.2.9"
   }
